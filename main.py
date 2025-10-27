@@ -46,7 +46,7 @@ def main(page: ft.Page):
 
     num_posti=ft.TextField(width=100, text_size=16, border_color="white", text_align=ft.TextAlign.CENTER)
 
-    num_posti.value=0 # contatore al centro impostato a 0
+    num_posti.value=0 # contatore al centro
 
     # --- FUNZIONI APP ---
     def aggiorna_lista_auto():
